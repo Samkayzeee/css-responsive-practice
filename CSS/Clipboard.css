@@ -1,0 +1,358 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    background-image: url(../images/bg-header-desktop.png);
+    text-align: center;
+    width: 100%;
+}
+.logo>img{
+    margin: 4%;
+}
+.section1{
+    text-align: center;
+}
+.h11{
+    font-size: 35px;
+    opacity: 0.8;
+    margin: 1% 0;
+}
+.para1{
+    font-size: 14px;
+    line-height: 20px;
+    width: 35%;
+    margin:1% auto;
+    opacity: 0.6;
+}
+.button{
+    margin: 2% 0;
+    /* border: solid; */
+}
+.btn1{
+    background-color: rgb(98, 189, 98);
+    padding: 1.5% 3%;
+    border-radius: 32px;
+    border: none;
+    box-shadow: 2px 2px 3px rgb(98, 189, 98);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 1.5%;
+}
+.btn2{
+    background-color: rgb(31, 133, 167);
+    padding: 1.5% 3%;
+    border-radius: 32px;
+    border: none;
+    box-shadow: 2px 2px 3px rgb(31, 133, 167);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.section2{
+    text-align: center;
+    margin-top: 5%;
+}
+.h12{
+    font-size: 28px;
+    opacity: 0.8;
+    margin: 1% 0;
+}
+.para2{
+    font-size: 13px;
+    line-height: 20px;
+    width: 38%;
+    margin:1% auto;
+    opacity: 0.6;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 2%;
+}
+.img1{
+    width: 50%;
+}
+.img1>img{
+    width: 100%;
+    height: 100%;
+}
+.first,.second,.third{
+    margin: 7% 0;
+}
+.h21,.h22,.h23{
+    font-size: 18px;
+    opacity: 0.7;
+}
+.para3,.para4,.para5{
+    font-size: 13px;
+    line-height: 20px;
+    opacity: 0.6;
+    width: 60%;
+}
+.section4{
+    text-align: center;
+    margin: 2% 0;
+    /* border: solid; */
+}
+.para6{
+    font-size: 13px;
+    line-height: 20px;
+    opacity: 0.6;
+    width: 35%;
+    margin: auto;
+}
+.h24{
+    font-size: 20px;
+    opacity: 0.7;
+}
+.img2>img{
+    width: 60%;
+}
+.section5{
+    text-align: center;
+    /* border: solid; */
+}
+.h25{
+    font-size: 25px;
+    opacity: 0.7;
+    font-weight: bold;
+}
+.para7{
+    line-height: 20px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.section6{
+    display: flex;
+    justify-content: space-around;
+}
+.section6>.first,.section6>.second,.section6>.third{
+    text-align: center;
+    width: 50%;
+}
+.para8{
+    width: 50%;
+    margin: auto;
+    line-height: 20px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.para9{
+    width: 75%;
+    margin: auto;
+    line-height: 20px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.para10{
+    width: 75%;
+    margin: auto;
+    line-height: 20px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.h31,.h32,.h33{
+    font-size: 20px;
+    opacity: 0.8;
+    margin: 3% 0;
+}
+.section7{
+    padding: 0 2%;
+}
+.section7>img{
+    margin: 0 4%;
+}
+.section8{
+    text-align: center;
+    margin: 2% 0;
+}
+.h13{
+    font-size: 28px;
+    opacity: 0.8;
+    margin: 1% 0;
+}
+.para11{
+    width: 40%;
+    margin: auto;
+    line-height: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+footer{
+    background-color: rgb(248, 244, 244);
+    padding: 2% 4%;
+}
+a{
+    font-size: 18px;
+    color: gray;
+    text-decoration: none;
+
+}
+.inside2>img{
+    height: 60px;
+    width: 60px;
+}
+.inside2 p{
+    line-height: 40px;
+}
+.inside2{
+    display: flex;
+    justify-content: space-between;
+}
+.icons img{
+    margin: 0 5px;
+}
+@media screen and (max-width:1100px) {
+    .section3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .inside{
+        text-align: center;
+    }
+    .inside p{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .section7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section7 img{
+        width: 25%;
+        margin: 3% 0;
+    }
+}
+@media screen and (max-width:700px) {
+    .logo{
+        padding: 4% 0;
+    }
+    .logo>img{
+        width: 100px;
+        height: 100px;
+    }
+    .h11{
+        font-size: 25px;
+        width: 70%;
+        margin: auto;
+    }
+    .h12{
+        font-size: 25px;
+        width: 60%;
+        margin: auto;
+    }
+    .para1{
+        width: 70%;
+    }
+    .button{
+        width: 70%;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .btn1,.btn2{
+        display: block;
+        width: 100%;
+        margin: 3% 0;
+        padding: 3% 0;
+    }
+    .para2{
+        width: 100%;
+        width: 70%;
+    }
+    .section3{
+        flex-direction: column;
+    }
+    .img1{
+        margin: auto;
+        margin-top: 4%;
+    }
+    .inside{
+        flex-direction: column;
+        margin: auto;
+        /* border: solid; */
+        width: 80%;
+    }
+    .first,.second,.third{
+        /* border: solid; */
+        width: 100%;
+        text-align: center;
+        margin: 5% 0;
+    }
+    .para3,.para4,.para5{
+        width: 100%;
+        line-height: 15px;
+        text-align: center;
+        /* border: solid; */
+        margin: auto;
+        font-size: 12px;
+    }
+    .h24{
+        width: 70%;
+        margin: auto;
+    }
+    .h25{
+        width: 50%;
+        margin: auto;
+        font-size: 20px;
+    }  
+    .para6{
+        width: 80%;
+    }
+    .section6{
+        flex-direction: column;
+    }
+    .section6>.first,.section6>.second,.section6>.third{
+        width: 60%;
+        margin: auto;
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+    .para8,.para9,.para10{
+        width: 100%;
+    }
+    .section7{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .section7 img{
+        display: block;
+        width: 100px;
+        height: 50px;
+        margin: 5% auto;
+    }
+    .h13{
+        font-size: 25px;
+        width: 70%;
+        margin: auto;
+    }
+    .para11{
+        width: 70%;
+        margin: auto;
+    }
+    .inside2{
+        flex-direction: column;
+        /* margin: 5%; */
+        margin-left: auto;
+        text-align: center
+    }
+    footer{
+        text-align: center;
+    }
+    .inside2>img{
+        margin: auto;
+    }
+    .icons img{
+        margin: 0 12px;
+    }
+
+
+}
